@@ -11,7 +11,7 @@ function redirectToAttendance() {
     // http://gnioterp.com:150/StudentAcademicReportMgmt.aspx?StuId=73991&SessionId=1022&ClassId=31&SemId=61
 
     // Redirect to the attendance page with the password as a parameter
-    window.location.href = serverUrl + '/StudentAcademicReportMgmt.aspx?StuId=' + encodeURIComponent(password)+'&SessionId=1022&ClassId=31&SemId=61';
+    window.location.href = serverUrl + '/StudentAcademicReportMgmt.aspx?StuId=' + encodeURIComponent(password)+'&SessionId=1022&ClassId=31&SemId=62';
 }
 
 login.addEventListener("click", (e)=>{
